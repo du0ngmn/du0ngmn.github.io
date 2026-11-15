@@ -54,5 +54,33 @@ nav a:hover{color:var(--ink);text-decoration:underline}
 .site-footer a{color:var(--muted)}
 .site-footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
-@media (max-width:520px){.shots{grid-template-columns:repeat(2,1fr)}.app-head{align-items:flex-start}}
+@media (max-width:520px){
+  .site-header .wrap{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+  }
+
+  .brand{
+    white-space:nowrap;
+  }
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+  }
+
+  nav a{
+    margin-left:0;
+  }
+
+  .shots{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .app-head{
+    align-items:flex-start;
+  }
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
