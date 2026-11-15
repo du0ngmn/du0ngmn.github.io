@@ -16,7 +16,7 @@ nav a:hover{color:var(--ink);text-decoration:underline}
 .hero{padding:56px 0 24px}
 .hi{margin:0 0 4px;color:var(--muted);font-size:1.1rem}
 .role{display:inline-block;margin:6px 0 18px;padding:3px 14px;border-radius:6px;background:var(--btn);color:var(--btnt);font-weight:600;font-size:.9rem}
-.lead{font-size:1.15rem;color:var(--muted);max-width:34em}
+.lead{font-size:1.15rem;color:var(--muted);max-width:34em;text-align:justify;}
 .section{padding-top:56px}
 .section>h2::after{content:"";display:block;width:40px;height:4px;border-radius:2px;background:var(--sand);margin-top:8px}
 .checks{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:12px}
